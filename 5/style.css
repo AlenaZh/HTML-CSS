@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "Marta_Regular";
+    src: url('font/Marta_Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Marta_Bold";
+    src: url('font/Marta_Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Marta_Italic";
+    src: url('font/Marta_Italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: #f8f8f8;
+    font-family: "Marta_Regular";
+    font-size: 17px;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    position: relative;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, .09);
+    background-image: url(img/tree_bark_1.png);
+    border-radius: 10px
+}
+
+.catalog {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.catalog >li {
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin-right: 30px;
+    height: 300px;
+    width: 260px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: .4s;
+}
+
+.catalog > li:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.catalog > li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.catalogImg {
+    display: block;
+    height: 250px;
+    margin: 5px;
+}
+
+.catalogName {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.linkCatalog {
+    color: #4e413b;
+    font-family: "Marta_Regular";
+    text-decoration: none;
+    display: block;
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+.linkCatalog:hover {
+    color: #e36488;
+}
+
+.logo {
+    display: block;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 50px;
+    float: left;
+}
+
+.menuBlock {
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 100px;
+}
+
+.menu {
+    margin: 0 auto;
+    padding-left: 0px;
+    line-height: 20px;
+    letter-spacing: -4px;
+}
+
+.menu > li {
+    list-style-type: none;
+    font-size: 23px;
+    font-family: "Marta_Italic";
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    border-bottom-color: #6c5b7b;
+    margin-right: 10px;
+    letter-spacing: 0;
+}
+
+.menu>li:nth-of-type(1) {}
+
+.menu li a {
+    color: #34222e;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.menu li:hover {}
+
+.menu li a:hover {
+    color: #f67280;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, .07);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content {
+    position: relative;
+    min-height: 500px;
+}
+
+.productImgBlock {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.btnBuy {
+    display: block;
+    padding: 15px;
+    width: 90px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    background-color: #f67280;
+    text-decoration: none;
+    border-radius: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .1);
+    transition: .3s;
+    font-family: "Marta_Bold";
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.btnBuy:hover {
+    background-color: #7BD868;
+    box-shadow: 0 15px 15px rgba(123, 216, 104, .4);
+    transform: translateY(-1px);
+    color: white;
+}
+
+.btnBuy:active {
+    background-color: #62C44D;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .1);
+    transition: .3s;
+    transform: translateY(+5px);
+}
+
+.shortDiscBlock {
+    margin-left: 340px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.techCaractBlock {
+    margin-top: 0px;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    color: #34222e;
+    font-family: Marta_Bold;
+}
+
+.main_text {
+    text-align: center;
+}
+
+.headers {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Marta_Italic";
+    background-color: #F1EFFF;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.productImg {
+    border: #6c5b7b 4px inset;
+    border-radius: 15px;
+    transition: .6s;
+}
+
+.productImg:hover {
+    border-color:transparent;    
+    transition: .4s;
+}
+
+.shortDisc {
+    color: #707070;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.shortDisc:first-letter {
+    font-family: "Marta_Italic";
+    font-size: 1.5em;
+    color: #f67280;
+}
+
+.fullDisc li {
+    color: #484343;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.complect {
+    list-style-image: url(img/list_image_main_pink.png)
+}
+
+.techCaract {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.techCaract td,
+.techCaract th {
+    border: 1px solid #000;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.techCaract th {
+    font-family: "Marta_Bold";
+    height: 36px;
+}
+.contForm{
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    height: 470px;
+    width: 570px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .1);
+}
+
+.contForm .label {
+    display: inline-block;
+    width: 90px;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.contForm input[type="text"],
+.contForm input[type="email"],
+.contForm input[type="tel"],
+.contForm textarea {
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 17px;
+    color: #434343;
+    font-style: italic;
+    font-family: "Marta_Italic";
+}
+
+.contForm input[type="email"]:focus {
+    background-color: #F1EFFF;
+    color: #ed6363
+}
+
+.contForm input[id="name"] {
+    text-transform: capitalize;
+}
+
+.contForm input[type="submit"],
+.contForm input[type="reset"] {
+    margin-left: 190px;
+    padding: 10px, 25px;
+    font-size: 1em;
+    width: 105px;
+    height: 30px;
+    font-family: "Maria_Regular";
+}
+
+.contForm input[type="reset"] {
+    margin-left: 25px;
+}
+
+.adress {
+    font-family: "Marta_Bold";
+    background-color: white;
+    padding: 15px;
+   
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .1);
+    margin: 0 auto;
+    margin-bottom: 20px;    
+}
+
+.adress .label {
+    font-family: "Marta_Regular";
+    font-style: italic;
+    font-size: 17px;
+}
+
+.map {
+    width: 100%;
+    height: 374px;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .1);
+}
+
+.footer {
+    height: 35px;
+    color: #f6f6f6;
+    background: #6c5b7b;
+    opacity: 0.9;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}

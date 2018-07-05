@@ -1,0 +1,99 @@
+body {
+    background: #f8f8f8;
+}
+a{
+    color: #4e413b;
+}
+a:hover{
+    color: #d3504a;
+}
+
+.menu li {
+    list-style-type: none;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.menu li a {
+    color: #34222e;
+}
+
+h1{
+    text-align: center;
+    color: #34222e;
+}
+.main_text{
+    text-align: center;
+}
+.headers {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.catalogImg{
+    outline: #34222e solid thick;
+}
+
+.shortDisc li {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.fullDisc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.charact {
+    list-style-image: url(img/list_image.png)
+}
+
+.charactMain {
+    list-style-image: url(img/list_image_main.png)
+}
+
+.contForm .label {
+    display: inline-block;
+    width: 90px;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.contForm input[type="text"],
+.contForm input[type="email"],
+.contForm textarea {
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    color: #434343;
+    font-style: italic;
+}
+
+.contForm input[type="submit"],
+.contForm input[type="reset"] {
+    margin-left: 110px;
+    padding: 10px, 25px;
+    font-size: 1em;
+    width: 105px;
+    height: 30px;
+}
+
+.contForm input[type="reset"] {
+    margin-left: 25px;
+}
+.adress .label{
+    font-style: italic;
+    font-size: 16px;
+}
+.linkCatalog{
+    
+}

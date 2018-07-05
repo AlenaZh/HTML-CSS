@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Marta_Regular";
+    src: url('font/Marta_Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Marta_Bold";
+    src: url('font/Marta_Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Marta_Italic";
+    src: url('font/Marta_Italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: #f8f8f8;
+    font-family: "Marta_Regular";
+    font-size: 17px;
+}
+
+.linkCatalog {
+    color: #4e413b;
+    font-family: "Marta_Regular";
+    text-decoration: none;
+}
+
+.linkCatalog:hover {
+    color: #c06c84;
+}
+
+.logo {
+    height: 135px;
+}
+
+.menu li {
+    list-style-type: none;
+    font-size: 23px;
+    font-family: "Marta_Italic";
+}
+
+.menu li a {
+    color: #34222e;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #f67280;
+}
+
+h1 {
+    text-align: center;
+    color: #34222e;
+    font-family: Marta_Bold;
+}
+
+.shortDisc:first-letter {
+    font-family: "Marta_Italic";
+    font-size: 1.5em;
+    color: #f67280;
+}
+
+.main_text {
+    text-align: center;
+}
+
+.headers {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Marta_Italic";
+    background-color: #eaeaea;
+}
+
+.catalogImg {
+    outline: #34222e solid thick;
+}
+
+.catalogImg:hover {
+    outline-width: 0px;
+}
+
+.shortDisc {
+    color: #707070;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.fullDisc li {
+    color: #484343;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.complect {
+    list-style-image: url(img/list_image_main_pink.png)
+}
+
+.techCaract {
+    border-collapse: collapse;
+}
+
+.techCaract td,
+.techCaract th {
+    border: 1px solid #000;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.techCaract th {
+    font-family: "Marta_Bold";
+    height: 36px;
+}
+
+.contForm .label {
+    display: inline-block;
+    width: 90px;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.contForm input[type="text"],
+.contForm input[type="email"],
+.contForm input[type="tel"],
+.contForm textarea {
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 17px;
+    color: #434343;
+    font-style: italic;
+    font-family: "Marta_Italic";
+}
+
+.contForm input[type="email"]:focus {
+    background-color: #f6f6f6;
+    color: #ed6363
+}
+
+.contForm input[type="text"],
+textarea {
+    text-transform: capitalize;
+}
+
+.contForm input[type="submit"],
+.contForm input[type="reset"] {
+    margin-left: 110px;
+    padding: 10px, 25px;
+    font-size: 1em;
+    width: 105px;
+    height: 30px;
+    font-family: "Maria_Regular";
+}
+
+.contForm input[type="reset"] {
+    margin-left: 25px;
+}
+
+.adress {
+    font-family: "Marta_Bold";
+}
+
+.adress .label {
+    font-family: "Marta_Regular";
+    font-style: italic;
+    font-size: 17px;
+}
