@@ -4,6 +4,14 @@ body {
     color: #212121;
 }
 
+@font-face {
+    font-family: 'fontello';
+    src: url('font/fontello.eot');
+    src: url('font/fontello.woff') format('woff'), url('font/fontello.ttf') format('truetype'), url('font/fontello.svg#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +50,7 @@ body {
 
 .searchicon-social {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 7px;
     padding-left: 3px;
     text-decoration: none;
     color: #212121;
@@ -51,6 +59,13 @@ body {
 
 .searchicon-social:hover {
     color: #6c6c6c;
+}
+
+.searchicon-social:before {
+    content: '\e802';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
 }
 
 .menu li {
@@ -775,7 +790,7 @@ body {
     display: inline-block;
     font-size: 48px;
     margin-top: 48px;
-    margin-left: 151px;
+    margin-left: 166px;
 }
 
 .contact_text {
@@ -966,7 +981,7 @@ body {
     position: absolute;
     display: block;
     padding-top: 9px;
-    padding-left: 7px;
+    padding-left: 12px;
     font-size: 24px;
 }
 
@@ -1020,6 +1035,54 @@ body {
     width: 28px;
     margin-right: 6px;
     float: left;
+}
+
+.facebook-circled-1icon-social:before {
+    content: '\f30d';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.twitter-circled-1icon-social:before {
+    content: '\f30a';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.gplus-circledicon-social:before {
+    content: '\f310';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.pinterest-circledicon-social:before {
+    content: '\f313';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.paper-planeicon-social:before {
+    content: '\e800';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.locationicon-social:before {
+    content: '\f031';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
 }
 
 .facebook-circled-1icon-social,
